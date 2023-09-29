@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Maryam Vafaeezadeh portfolio website user interface designer"
+    />
+    <meta
+      name="keywords"
+      content="UX designer, UI designer, web designer, portfolio, maryam, vafaeezadeh"
+    />
+    <meta name="author" content="Maryam Vafaeezadeh" />
+    <link rel="icon" href="img/logo/Light-Blue.svg" />
+    <!-- <link rel="apple-touch-icon" href="img/logo/apple-touch-icon.png" /> -->
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="scss/custom.scss" />
+
+    <script defer src="js/script.js"></script>
+    <title>TimeMapper</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <a class="navbar-brand mx-4" href="index.html">
+          <img src="./img/logo/Light-Blue.svg" class="bi" alt="log" />
+        </a>
+        <button
+          class="navbar-toggler mx-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-center mx-4"
+          id="navbarCollapse"
+        >
+          <ul class="navbar-nav ms-auto gap-4 mb-2 nav-menu-items">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="timemapper.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img
+                  src="./img/Icon/Accessibility/Light.svg"
+                  width="24"
+                  height="24"
+                  alt="Accessibility"
+                  class=""
+              /></a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section id="summary">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="header">Time Mapper</h1>
+            <p class="lead">
+              <br />Have you ever wished you could make time feel longer or
+              pause it so you could complete all your tasks? <br />
+              TimeMapper is an app that you can use on your phone and watch to
+              figure out how you'll use your time and then make plans to make
+              the most of it. <br />Unlike other apps that keep you on task or
+              count down your time, TimeMapper helps you create a schedule by
+              keeping track of how you spend your time and then helps you manage
+              it better!
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="/img/AppScreenshot/FirstPIc.svg"
+              width="500px"
+              height="500px"
+              alt="timemapper"
+            />
+          </div>
+          <div class="d-flex justify-content-center my-3">
+            <a href="PDF/TimeMapper-CaseStudy.pdf"
+              ><button class="btn btn-lg btn-outline-dark">
+                Download Case Study
+              </button></a
+            >
+          </div>
+          <div class="row my-5">
+            <h3><mark>My approach to design</mark></h3>
+            <div class="col container-fluid mx-3">
+              <p class="lead">
+                <strong> Why did I choose this design process?</strong> After
+                understanding the problem and users needs, I realised there are
+                so many different application in the market each of which met
+                part of user's needs. Considering time limitation, budget and
+                resources, I decided to focus on what other applications lack
+                and focus on strengthen their weakness.<br />
+                So, I spend enough time to explore other applications( research
+                phase) to come up with the best solution.
+              </p>
+            </div>
+          </div>
+          <div class="row my-5">
+            <h3><mark>Project Overview</mark></h3>
+            <div class="col-lg-6 my-3">
+              <h5>Hypothesis</h5>
+              <p class="lead">
+                A lot of us have really busy lives. We have to do many different
+                things and try to make time for everything. But even when we try
+                our hardest to plan our days, weeks, and months, we often can't
+                finish everything we need to do. This can make us feel upset,
+                stressed, and not happy.
+              </p>
+            </div>
+            <div class="col-lg-6 my-3">
+              <h5>Potential solution</h5>
+              <p class="lead">
+                Although things like time management apps, to-do lists, and
+                calendars can be useful, they don't solve everything. Instead of
+                just checking off tasks, we should aim to come up with smarter
+                and more complete solutions.
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="row justify-content-center">
+            <h3><mark>Design Process</mark></h3>
+
+            <div class="col-lg-8">
+              <figure>
+                <img
+                  src="/img/AppScreenshot/Process-dark.png"
+                  alt="sitemap"
+                  class="full-img"
+                />
+              </figure>
+            </div>
+          </div>
+
+          <div class="row my-5">
+            <h3>
+              <mark>Core Insights of Research</mark>
+            </h3>
+            <div class="col mx-3">
+              <p class="lead">
+                Even though individuals find time management apps beneficial,
+                they encounter fundamental issues such as the difficulty to
+                seamlessly synchronise with their various devices. Additionally,
+                these apps have been overloaded with features beyond their core
+                functionality, resulting in a steep learning curve and consuming
+                excessive time to master.
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="row my-5 justify-content-center">
+            <h3><mark>Persona</mark></h3>
+            <div class="col-lg-4 mt-5">
+              <figure>
+                <img
+                  src="img/Icon/Personas/Alex.jpeg"
+                  alt="alex, persona"
+                  class="circle-img"
+                />
+                <figcaption class="caption">Alex</figcaption>
+              </figure>
+            </div>
+            <div class="col-lg-4 my-5">
+              <h5>Golas</h5>
+              <ul>
+                <li>
+                  I want to know the time distribution among my different
+                  activities
+                </li>
+                <li>I want feel satisfy and productive at the end of day.</li>
+                <li>
+                  I am curious to determine the amount of time that goes to
+                  waste in my daily routine.
+                </li>
+              </ul>
+              <h5>Pain Points</h5>
+              <ul>
+                <li>I am burdened with lots of work to do.</li>
+                <li>I lost all track of time.</li>
+                <li>I am burdened with lots of work to do.</li>
+                <li>
+                  Even though I attempted to organise my responsibilities by
+                  creating a to- do list.
+                </li>
+                <li>it didn't prove to be very effective.</li>
+                <li>I feel dissatisfied with pile of incomplete tasks.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row my-5 justify-content-center">
+            <div class="col-lg-4">
+              <div>
+                <h5>Golas</h5>
+                <ul>
+                  <li>
+                    I am looking for finding out how my time is being wasted and
+                    where can I deligate my tasks.
+                  </li>
+                  <li>
+                    I am interested to have an overview of my daily task, but
+                    every time I attempt to start recording it, I struggle to
+                    maintain consistency.
+                  </li>
+                </ul>
+                <h5>Pain Points</h5>
+                <ul>
+                  <li>I am worn out at the end of day.</li>
+                  <li>
+                    I need to prioritize certain tasks over others and make
+                    sacrifices accordingly.
+                  </li>
+                  <li>I feel unhappy with not having time for myself.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-5">
+              <figure>
+                <img src="img/Icon/Personas/Maria.jpg"" alt="maria, persona"
+                class="circle-img" />
+                <figcaption class="caption">Maria</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="row my-5">
+            <h3><mark>Problem Statement</mark></h3>
+            <div class="col-lg-6 my-3">
+              <p class="lead">
+                <b>Alex</b> is an employee in IT industry who looks to work
+                efficiently and complete his tasks on time, because he wants to
+                enjoy his hobbies during his spare time and increase his overall
+                satisfaction.
+              </p>
+            </div>
+            <div class="col-lg-6 my-3">
+              <p class="lead">
+                <b>Miriam</b>, who has two children, enjoys attending cooking
+                classes as a hobby. She wants to find a way to manage her time
+                effectively and complete all her tasks, but she feels like her
+                time is being taken away from her.
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section id="details">
+        <div class="row my-5">
+          <h3><mark>SiteMap</mark></h3>
+          <p class="lead">
+            Creating a site map helped me to get an overview of structure of the
+            application, sort them out in three main parts and ensured that all
+            requirements are covered.
+          </p>
+          <div class="col-lg-12">
+            <figure>
+              <img
+                src="/img/AppScreenshot/SiteMap.png"
+                alt="sitemap"
+                class="full-img"
+              />
+              <figcaption class="caption">
+                The screenshot of site map, shows the information architecture
+                for TimeMapper application. Created By Miro.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5">
+          <h3><mark>WireFrame</mark></h3>
+          <p class="lead">
+            I highlighted the intended function of the product and establish the
+            basic structure of the pages on a paper.
+          </p>
+          <div class="col mb-5">
+            <figure style="text-align: center">
+              <img
+                src="/img/AppScreenshot/WireFrame.png"
+                alt="wireframe"
+                class="half-img"
+              />
+              <figcaption class="caption">
+                The paper wireframe, shows the initial sketch.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5">
+          <h3><mark>Usability Study</mark></h3>
+          <p class="lead" style="display: block">
+            I stablished a moderate usability study with a real user, planed
+            three scenario and asked one user (Alex) to go through with it.
+          </p>
+          <ol class="lead" style="list-style-position: inside">
+            <li>Start a task.</li>
+            <li>Edit and change your intended tasks and save it.</li>
+            <li>Report from what you have done through a day</li>
+          </ol>
+
+          <p class="lead">
+            Based on findings in usability study, I turn my observations into
+            actionable insights and changed the design. To get the most out of
+            this test, I conducted a heuristic evaluation of my prototype and
+            note down any potential usability issues. Then compare my evaluation
+            with the findings from the usability tests.
+          </p>
+          <div class="col my-5">
+            <h4>Pattern identification</h4>
+            <ol class="lead">
+              <li>
+                It has been noticed that having the login feature as the first
+                step slows down the process and can discourage users from using
+                the app altogether.
+              </li>
+              <li>
+                Creating tasks takes a lot of time. Users usually don't spend
+                time on a time tracker app to find out how app works.
+              </li>
+            </ol>
+          </div>
+          <div class="col my-5">
+            <h4>Insight Identification</h4>
+
+            <ol class="lead">
+              <li>
+                Considering the theme, it is suggested that the login process
+                should not be required as the initial step. Instead, users can
+                choose to log in to their account in case authorisation is
+                needed.
+              </li>
+
+              <li>
+                Considering the primary goal of this app, it is important to
+                minimize the number of clicks and provide users with a shorter
+                path to accomplish their tasks.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5">
+          <h3>
+            <mark>Wireframe after Usability study</mark>
+          </h3>
+          <p class="lead">
+            I highlighted the intended function of the product and establish the
+            basic structure of the pages on a paper.
+          </p>
+          <div class="col-lg-12">
+            <figure>
+              <img
+                src="/img/AppScreenshot/Wireframeafteriteration.png"
+                alt="wireframe"
+                class="full-img"
+              />
+              <figcaption class="caption">
+                The final wireframe, shows the changes after usability study.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <h3><mark>Edge case</mark></h3>
+          <div class="col mx-3">
+            <p class="lead my-3">
+              <strong> Time Overlaping!</strong><br />
+              When we examine the typical way users go about tracking and
+              managing their time and tasks, everything seems fine until we
+              encounter situations where time overlaps and multitasking become
+              factors.<br />
+              Users might find themselves doing two or more tasks
+              simultaneously, like listening to a podcast while cooking, for
+              instance. This raises questions about whether it's practical to
+              record two tasks at the same time.<br />
+              Additionally, we need to think about how complex it might be to
+              generate reports that include overlapping time tasks from a
+              technical perspective. In scenarios like this, especially in
+              larger, real-world projects, it's important to prioritise these
+              unusual situations by evaluating their importance to the
+              business.<br />In my project, I made the decision to maintain a
+              one-to-one relationship between tasks and times and intentionally
+              avoided handling this exception due to the complexities it would
+              introduce in report calculations and UI design. Instead, I
+              concentrated on refining the main user workflow and enhancing the
+              core user experience.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5">
+          <h3><mark>High-fiedelity Mockups</mark></h3>
+          <p class="lead mb-5">
+            In the second round of usability study used a high-fidelity
+            prototype and revealed what aspects of the mockups needed refining.
+            <br />
+          </p>
+          <div class="col">
+            <figure class="fig-align">
+              <img
+                src="/img/AppScreenshot/Home.png"
+                alt="home"
+                class="half-img"
+              />
+              <figcaption class="caption">
+                HomePage mockup, light mode, created by Figma.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="fig-align">
+              <img
+                src="/img/AppScreenshot/WhiteAddGame.png"
+                alt="new task"
+                class="half-img"
+              />
+              <figcaption class="caption">
+                New task, light mode, created by Figma.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col">
+            <figure class="fig-align">
+              <img
+                src="/img/AppScreenshot/LightAddGame.png"
+                alt="new task"
+                class="half-img"
+              />
+              <figcaption class="caption">
+                Display of inserted new task, light mode, created by Figma.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="fig-align">
+              <img
+                src="/img/AppScreenshot/ReportLight.png"
+                alt="report"
+                class="half-img"
+              />
+              <figcaption class="caption">
+                ReportPage-mockup, created by Figma.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="row my-5">
+            <h3 class="mb-5">Dark Mode</h3>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/ReportAccount.png"
+                  alt="setting"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  setting page mockup, dark mode, created by Figma.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/SaveDark.png"
+                  alt="home"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Changes taks'time, dark mode, created by Figma.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/DarkReport.png"
+                  alt="report"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Report, dark mode, created by Figma.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/DarkHomePage.png"
+                  alt="home"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Home, dark mode, created by Figma.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="row my-5">
+            <h3><mark>Smart Watch</mark></h3>
+            <p class="lead">
+              Cross-platform availability is another reason we need to take into
+              account. Integration with the application on other platform will
+              allow seamless data synchronisation and reduce the need for manual
+              data entry multiple time. So, considering the concept smart
+              watches are the second mean that people would use easily to track
+              their times. Here are some picture of Watch prototype.
+            </p>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Light/image 1.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, Home-Light version.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Light/image 2.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, Edit- Study task- Light version.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Light/image 3.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, EditTime- Study task- Light version.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Light/image 4.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, Successful message, Light version.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="row my-5">
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Dark/image 5.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, Edit- Study task- Dark version.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Dark/image 6.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, Home- Dark version.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Dark/image 7.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, Start Study task- Dark version.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <figure class="fig-align">
+                <img
+                  src="/img/AppScreenshot/watch/Dark/image 8.png"
+                  alt="watch- high-fidelity"
+                  class="half-img"
+                />
+                <figcaption class="caption">
+                  Watch Mockup, Edit end time of study task- Dark version.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5">
+          <h3><mark>Process Reflection</mark></h3>
+          <div class="col container-fluid mx-3">
+            <p class="lead">
+              During the design process, I found it incredibly rewarding to
+              truly grasp my client's needs, implement their exact requirements,
+              and empathize with and identify their pain points. Seeing their
+              satisfaction and belief in my work was truly worth it.
+              <br />Additionally, I enjoy going through research to strike a
+              balance between design and practicality. Leveraging my
+              <strong>engineering knowledge,</strong> I strive to
+              <strong
+                >find harmony between the user interface components in design
+                and the coding aspect in terms of cost-effectiveness and time
+                efficiency.</strong
+              ><br />
+              And, as always, I enjoy working with prototyping software until I
+              achieve satisfactory result. It provides a vast canvas for me to
+              bring my ideas to life.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row my-5">
+          <h3><mark>Next Step</mark></h3>
+          <div class="col container-fluid mx-3">
+            <p class="lead">
+              Provide users with more details of PRO version، such as:
+              synchronisation among multiple devices, set goals, make more
+              specific reports , advanced search. Launch the product and there
+              <strong>always be next steps.</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="d-flex justify-content-center my-5">
+        <p class="lead text-center">
+          <strong>Thank You</strong> <br />
+          for your time and attention.<br />Curious about your thoughts and
+          feedback.
+        </p>
+      </div>
+      <section id="wrap">
+        <div class="row text-center justify-content-center">
+          <div class="col text-transparent" style="flex-grow: 0">
+            <a
+              href="timemapper.html"
+              class="nav-link disabled"
+              aria-current="page"
+              >TimeMapper</a
+            >
+          </div>
+          <div class="col" style="flex-grow: 0">
+            <a href="active.html" class="nav-link active">Active+</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="footer">
+      <footer class="py-3 my-4 border-top mx-2">
+        <div class="d-flex flex-column gap-3">
+          <div class="col-md-12 col-sm-12 text-center">
+            <span class="footer-size fw-light"
+              >Website design and content© 2023
+              <span style="color: #f03c06">Maryam Vafaeezadeh.</span>
+            </span>
+          </div>
+
+          <div class="col-md-12 col-sm-12">
+            <ul class="nav justify-content-center list-unstyled">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/maryam-vafaeezadeh-98babb239/"
+                  ><img
+                    class="icon socilaIcons"
+                    src="./img/Icon/SocialMedia/Linkedincolorless.svg"
+                /></a>
+                <a href="https://github.com/MrymVfZd/TimeMapper">
+                  <img
+                    class="icon socilaIcons"
+                    src="./img/Icon/SocialMedia/Githubcolorless.svg"
+                /></a>
+                <a href="https://www.behance.net/maryvafaee">
+                  <img
+                    class="icon socilaIcons"
+                    src="./img/Icon/SocialMedia/Behancecolorless.svg"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
