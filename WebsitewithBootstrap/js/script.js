@@ -1,7 +1,7 @@
 // Set current year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
-yearEl.textContent = currentYear;
+yearEl.textContent = Date().currentYear();
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
@@ -37,6 +37,30 @@ allLinks.forEach(function (link) {
   });
 });
 
-// function changeBackgroundColor() {
-//   document.getElementById("background").style.backgroundColor = "lightblue";
-// }
+// Read more Read Less
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function myColormode() {
+  const icon = document.getElementById("iconSwitch");
+  if (icon.classList.contains("bi-moon-stars")) {
+    icon.classList.replace("bi-moon-stars", "bi-sun");
+    document.documentElement.setAttribute("data-bs-theme", "light");
+  } else {
+    icon.classList.replace("bi-sun", "bi-moon-stars");
+    document.documentElement.setAttribute("data-bs-theme", "dark");
+  }
+}

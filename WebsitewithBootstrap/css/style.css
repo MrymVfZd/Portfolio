@@ -28,12 +28,10 @@
   height: 100vh;
 }
 
-.bi {
-  /* width: 30%;
-  height: 30%; */
+/* .bi {
   vertical-align: -0.125em;
   fill: currentColor;
-}
+} */
 
 .nav-scroller {
   position: relative;
@@ -91,8 +89,6 @@
 
   z-index: -1;
   object-fit: contain;
-
-  /* background-color: rgba(215, 213, 213, 0.5); */
 }
 
 .image-container {
@@ -135,12 +131,9 @@
 }
 
 .section-title h3 {
-  /* font-size: 32px; */
-  /* font-weight: bold; */
   margin-bottom: 20px;
   padding-bottom: 10px;
   position: relative;
-  /* color: #173b6c; */
 }
 
 .section-title h3::after {
@@ -160,21 +153,10 @@
   width: 80%;
 }
 
-.socilaIcons {
-  height: 28px;
-  width: 28px;
-}
-.icon:hover {
-  border-radius: 5px;
-  box-shadow: 2px 4px 8px rgba(33, 33, 33, 0.3);
-}
 .text-linked {
-  /* color: black; */
   text-decoration: none;
 }
-.text-linked:hover {
-  text-shadow: 1px 1px 2px rgb(180, 180, 180);
-}
+
 .image-block {
   filter: grayscale(10%);
   transition: all 0.5s;
@@ -202,20 +184,20 @@
   color: #fff5ed;
   text-decoration: solid;
 }
-.btn-outline-dark:active {
-  background-color: #f03c06;
-  border-color: #f03c06;
-  color: #fff5ed;
-  text-decoration: solid;
-}
-.btn-outline-dark:focus-visible {
-  background-color: #f03c06;
-  border-color: #f03c06;
-  color: #fff5ed;
-  text-decoration: solid;
-}
+
 /* Animated Text */
 
 .nav-menu-items {
   font-size: 1.3rem;
+}
+
+.more {
+  display: none;
+  transition: 10ms;
+}
+.lh-lg {
+  line-height: 4 !important;
+}
+h5 {
+  font-style: italic;
 }
