@@ -204,3 +204,8 @@ h5 {
 ul a {
   text-decoration: none;
 }
+.seprator {
+  border-bottom: 1px solid #ff6524;
+  padding-bottom: 5px;
+}
+/* */
