@@ -201,3 +201,6 @@
 h5 {
   font-style: italic;
 }
+ul a {
+  text-decoration: none;
+}
