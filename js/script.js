@@ -1,5 +1,16 @@
+//Set ColorMode
+const icon = document.getElementById("iconSwitch");
+const defaultTheme = localStorage.getItem("data-bs-theme");
+document.addEventListener("DOMContentLoaded", (event) => {
+  if (defaultTheme === "dark") {
+    icon.classList.add("bi-moon-stars");
+    document.documentElement.setAttribute("data-bs-theme", "dark");
+  } else {
+    icon.classList.add("bi-sun");
+    document.documentElement.setAttribute("data-bs-theme", "light");
+  }
+});
 // Set current year
-
 const currentDate = new Date();
 const currentYear = document.getElementById("year");
 currentYear.innerHTML = currentDate.getFullYear();
@@ -57,11 +68,15 @@ function myFunction() {
 
 function myColormode() {
   const icon = document.getElementById("iconSwitch");
-  if (icon.classList.contains("bi-moon-stars")) {
-    icon.classList.replace("bi-moon-stars", "bi-sun");
+  if (defaultTheme === "dark" && icon.classList.contains("bi-moon-stars")) {
+    icon.classList.remove("bi-moon-stars");
+    icon.classList.add("bi-sun");
     document.documentElement.setAttribute("data-bs-theme", "light");
+    localStorage.setItem("data-bs-theme", "light");
   } else {
-    icon.classList.replace("bi-sun", "bi-moon-stars");
+    icon.classList.remove("bi-sun");
+    icon.classList.add("bi-moon-stars");
     document.documentElement.setAttribute("data-bs-theme", "dark");
+    localStorage.setItem("data-bs-theme", "dark");
   }
 }
